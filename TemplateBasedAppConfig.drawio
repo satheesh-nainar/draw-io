@@ -1,1 +1,58 @@
-<mxfile host="www.draw.io" modified="2019-12-03T06:47:30.585Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.3.5" etag="w9C2H3eGaEfOSH0bQOD7" type="github" pages="1"><diagram id="j4LcytpMUYQ8WJsPmTk5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-02T07:18:54.856Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="K_yw4Y2R095DJne59XmZ" version="12.4.8" type="github">
+  <diagram id="j4LcytpMUYQ8WJsPmTk5" name="Page-1">
+    <mxGraphModel dx="1049" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-1" target="yebP2lRLGH6hA3p1gVz9-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-2" value="Pull code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-4" target="yebP2lRLGH6hA3p1gVz9-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-4" value="Set rpm build env. in Docker" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-5" target="yebP2lRLGH6hA3p1gVz9-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-5" value="Rpm build on container" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fs-icons-ubuntu-by-franksouza-/128/gnome-mime-application-x-rpm.png" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-9" target="yebP2lRLGH6hA3p1gVz9-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-9" value="Python compile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.604;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-10" target="yebP2lRLGH6hA3p1gVz9-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-10" value="Include in data.json (or any other json file)&lt;br&gt;Prefix: App setup path&lt;br&gt;InstallBlock: Files to be part of app&lt;br&gt;FileBlock: Set file permission &amp;amp; mark config files&lt;br&gt;PostBlock: Set migration steps" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="12" y="180" width="275" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-11" target="yebP2lRLGH6hA3p1gVz9-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-11" value="Generate rpm spec file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="290" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yebP2lRLGH6hA3p1gVz9-12" target="yebP2lRLGH6hA3p1gVz9-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-12" value="Share spec, pyc &amp;amp; dependencies with docker container as volumes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="350" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="yebP2lRLGH6hA3p1gVz9-13" value="Share rpms as Jenkins artifacts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="610" width="140" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
