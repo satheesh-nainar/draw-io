@@ -1,42 +1,165 @@
-<mxfile host="www.draw.io" modified="2019-11-18T12:50:31.548Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="rqvxDZrmHoyadvCa8Ak4" version="12.2.6" type="github" pages="1">
+<mxfile host="app.diagrams.net" modified="2020-05-13T08:42:29.785Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ZfebOuXSkkxy22slMbIZ" version="13.0.1" type="github">
   <diagram id="F25yMIiloNph69vf07Rg" name="Page-1">
-    <mxGraphModel dx="1049" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1895" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-3" value="webhook&lt;br&gt;triggers&lt;br&gt;build" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4P3ozhDbOEHNadufwdQ9-1" target="4P3ozhDbOEHNadufwdQ9-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-2" target="pYI4_q8SmuN3UHdXqu3Y-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-1" value="Gitlab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="120" height="60" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-2" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="80" width="540" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4P3ozhDbOEHNadufwdQ9-2" target="4P3ozhDbOEHNadufwdQ9-5">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-1" target="pYI4_q8SmuN3UHdXqu3Y-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4P3ozhDbOEHNadufwdQ9-2" target="4P3ozhDbOEHNadufwdQ9-4">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-1" value="Load git repo. list from&lt;br&gt;cpn-branch-repos.xml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-2" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="60" width="90" height="60" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-3" value="&lt;b&gt;Generate Jenkins jobs&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="80" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4P3ozhDbOEHNadufwdQ9-4">
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-4" value="Generate Git Sync Jobs (96 jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-5" value="Generate Cloudapp Build Jobs (45 Jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-6" value="Generate Dpvm Build Jobs (5 Jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-7" value="Generate Cloudvm Build Jobs (43 Jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-8" value="Add all Git Sync jobs in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-9" value="Add cloudapp builds -&lt;br&gt;&lt;b style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;csmcommoninfra &lt;/b&gt;&amp;amp; &lt;b style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;dbcommon &lt;/b&gt;in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-12" value="Add Dpvm-&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;Fakeshell &lt;/span&gt;build in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-13" value="Add Dpvm-&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;Cassandra raw image build,&lt;br&gt;Cloudvm raw image build,&lt;br&gt;DpvmDeb build&lt;/span&gt;&lt;br&gt;&amp;nbsp;in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-14" value="Add Dpvm-&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;image build&lt;/span&gt;&lt;br&gt;&amp;nbsp;in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-15" value="Add Cloudvm-&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;CopyMavenArtifacts,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;FetchOrchFiles&lt;/span&gt;&lt;br&gt;&amp;nbsp;in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-16" value="Add Cloudvm-&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;CassandraVM build,&lt;br&gt;CloudvmVM build,&lt;/span&gt;&lt;br&gt;&amp;nbsp;in a parallel execution phase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="370" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-19" target="pYI4_q8SmuN3UHdXqu3Y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-19" target="pYI4_q8SmuN3UHdXqu3Y-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-19" value="Trigger&lt;br&gt;GitSync Jobs in Parallel (96 jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-20" target="pYI4_q8SmuN3UHdXqu3Y-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-20" value="Initiate&lt;br&gt;cloudapp-&lt;br&gt;&lt;b&gt;csmcommoninfra&amp;nbsp;&lt;/b&gt;&amp;amp;&amp;nbsp;&lt;br&gt;&lt;b&gt;dbcommon&amp;nbsp;&lt;br&gt;&lt;/b&gt;in Parallel(2 jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="575" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-21" target="pYI4_q8SmuN3UHdXqu3Y-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-21" value="Initiate&lt;br&gt;&lt;b&gt;Fakeshell &lt;/b&gt;build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="573" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-22" target="pYI4_q8SmuN3UHdXqu3Y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-22" value="Initiate Dpvm-&lt;br&gt;&lt;b&gt;Cassandra raw image &lt;/b&gt;build,&lt;br&gt;&lt;b&gt;Cloudvm raw image &lt;/b&gt;build,&lt;br&gt;&lt;b&gt;DpvmDeb &lt;/b&gt;build&lt;br&gt;in Parallel(3 jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="660" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-26" target="pYI4_q8SmuN3UHdXqu3Y-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-26" value="Initiate Dpvm-&lt;br&gt;&lt;span&gt;image build&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="761" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-27" target="pYI4_q8SmuN3UHdXqu3Y-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-27" value="Initiate&lt;br&gt;&lt;b&gt;rest of cloudapp builds&lt;br&gt;&lt;/b&gt;in Parallel (43 Jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="681" width="120" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-32" target="pYI4_q8SmuN3UHdXqu3Y-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-32" target="pYI4_q8SmuN3UHdXqu3Y-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="130" as="targetPoint"/>
+            <mxPoint x="220" y="832" as="sourcePoint" />
+            <mxPoint x="380" y="892" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="866" />
+              <mxPoint x="380" y="866" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-4" value="Package app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="100" width="120" height="60" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-32" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="816" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4P3ozhDbOEHNadufwdQ9-5">
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-47" target="pYI4_q8SmuN3UHdXqu3Y-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="200" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="60" y="991" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-5" value="Package Infra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="20" width="120" height="60" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-47" value="Copy maven artifacts&lt;br&gt;in Parallel (39 Jobs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="896" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4P3ozhDbOEHNadufwdQ9-10" value="Artifact" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="60" height="80" as="geometry"/>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-48" target="pYI4_q8SmuN3UHdXqu3Y-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-48" value="Initiate fetchOrchfiles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-49" target="pYI4_q8SmuN3UHdXqu3Y-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-49" value="Initiate job to copy DPVM artifacts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-53" target="pYI4_q8SmuN3UHdXqu3Y-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1020" />
+              <mxPoint x="140" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pYI4_q8SmuN3UHdXqu3Y-53" target="pYI4_q8SmuN3UHdXqu3Y-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1020" />
+              <mxPoint x="330" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-53" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="981" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-58" value="Initiate&lt;br&gt;CassandraVM&lt;br&gt;build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pYI4_q8SmuN3UHdXqu3Y-59" value="Initiate&lt;br&gt;CloudVM&lt;br&gt;build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
