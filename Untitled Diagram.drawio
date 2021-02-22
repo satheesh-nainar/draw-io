@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T19:19:22.127Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="vd8v_cI3KXWEoRh8FIUX" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:33:31.934Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="LxE3rgumAmUXZs9dvSpE" version="14.4.2" type="github">
   <diagram id="YA1W6aXcYbbrDD___CQI" name="Page-1">
-    <mxGraphModel dx="917" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1079" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-4" value="&lt;h1&gt;JIRA based code changes&lt;/h1&gt;&lt;p&gt;- No need of using BUGID in commit messages&lt;/p&gt;&lt;p&gt;- Review details will be visible in JIRA&lt;/p&gt;&lt;p&gt;- Multiple commits are tracked&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-4" value="&lt;h1&gt;JIRA based code changes&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry y="38" width="400" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;1. DEV workflow&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="148" width="200" height="50" as="geometry" />
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;1. DEV workflow&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry y="100" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-7" target="KCs_ojkXlYOR5Ny38NSI-8">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-15" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" source="KCs_ojkXlYOR5Ny38NSI-7" target="KCs_ojkXlYOR5Ny38NSI-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-7" value="Create JIRA Ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-7" value="Create JIRA BUGID" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="100" y="198" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-8" target="KCs_ojkXlYOR5Ny38NSI-10">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-16" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" source="KCs_ojkXlYOR5Ny38NSI-8" target="KCs_ojkXlYOR5Ny38NSI-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-8" value="Create branch through the JIRA&lt;br&gt;(A private branch having release branch as the base)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-8" value="Create Private branch using JIRA BUGID (In JIRA)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="270" y="188" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-9" target="KCs_ojkXlYOR5Ny38NSI-7">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-14" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" source="KCs_ojkXlYOR5Ny38NSI-9" target="KCs_ojkXlYOR5Ny38NSI-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-9" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-9" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="20" y="198" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-10" target="KCs_ojkXlYOR5Ny38NSI-11">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-17" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" source="KCs_ojkXlYOR5Ny38NSI-10" target="KCs_ojkXlYOR5Ny38NSI-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-10" value="Update all the changes in the private branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-10" value="Update all the changes in the private branch" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="450" y="188" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-11" target="KCs_ojkXlYOR5Ny38NSI-12">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" source="KCs_ojkXlYOR5Ny38NSI-11" target="KCs_ojkXlYOR5Ny38NSI-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="730" y="298" />
@@ -42,20 +42,125 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-11" value="Create Pull-request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-11" value="Create Pull-request" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="620" y="188" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-12" target="KCs_ojkXlYOR5Ny38NSI-13">
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-4" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-12" target="nnW_JiFhACvJ6QtCtiCy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-12" value="Add reviewer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="328" width="120" height="80" as="geometry" />
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-30" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-12" target="nnW_JiFhACvJ6QtCtiCy-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-13" value="Reviewer approve &amp;amp; perform merge with auto close option for source branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="328" width="120" height="80" as="geometry" />
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-12" value="Add reviewer&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;- listing at least 1 other developers to be a code-reviewers&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry y="337" width="150" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-22" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Conditions: &lt;/b&gt;Branch is in unlock state&lt;br&gt;How DEV identifies a reviewer?&amp;nbsp;&lt;br&gt;What if the repo. was owned by single person?&amp;nbsp;&lt;br&gt;What if the commits are more and very old during pull-request?&amp;nbsp;&lt;br&gt;How to track changes of non-release branches? Same way as the release branch&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="478" width="635" height="90" as="geometry" />
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-13" target="nnW_JiFhACvJ6QtCtiCy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-13" value="Check if all reviews approve." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="130" y="670" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png;rounded=1;labelBackgroundColor=#F1FAEE;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="50" y="441" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-46" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-9" target="nnW_JiFhACvJ6QtCtiCy-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-9" target="nnW_JiFhACvJ6QtCtiCy-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-61" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-9" target="nnW_JiFhACvJ6QtCtiCy-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-9" value="Decline" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-12" target="nnW_JiFhACvJ6QtCtiCy-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="470" />
+              <mxPoint x="610" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-37" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-14" target="nnW_JiFhACvJ6QtCtiCy-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="491" />
+              <mxPoint x="550" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-49" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-12" target="nnW_JiFhACvJ6QtCtiCy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-12" value="Branch Locked?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="570" y="327" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-14" value="Request branch unlock (Offline communication)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="560" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-18" target="nnW_JiFhACvJ6QtCtiCy-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-18" value="Merge pull request by&lt;br&gt;Requester or Repo-owner (whoever has write-permission.)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="370" y="658.5" width="170" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-20" value="NEXT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="710" y="328" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.9999999999998" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-24" value="Reviewer reviews&lt;br&gt;- Updates happen basedon review comments" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="190" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-40" value="Yes" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-38" target="nnW_JiFhACvJ6QtCtiCy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-45" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-38" target="nnW_JiFhACvJ6QtCtiCy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-38" value="Looks good?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="340" y="328" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-39" target="nnW_JiFhACvJ6QtCtiCy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-39" target="nnW_JiFhACvJ6QtCtiCy-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-39" value="Approve" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="460" y="343" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-41" value="Request new pull request for changes" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-50" target="KCs_ojkXlYOR5Ny38NSI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-50" value="NEXT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="nnW_JiFhACvJ6QtCtiCy-52" target="nnW_JiFhACvJ6QtCtiCy-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-52" value="Mark as &quot;Resolved&quot; in JIRA&lt;br&gt;by Requester" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="610" y="658.5" width="170" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-54" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="655" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-56" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png;rounded=1;labelBackgroundColor=#F1FAEE;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-58" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png;rounded=1;labelBackgroundColor=#F1FAEE;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nnW_JiFhACvJ6QtCtiCy-60" value="Reviwers and associated developers get e-mail notification&lt;br&gt;Note: Make sure notification is not disabled for the required repos." style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/43.Bell-128.png;rounded=1;labelBackgroundColor=#F1FAEE;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="150" y="795" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
