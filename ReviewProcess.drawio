@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T07:27:21.101Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nkGzByureHFjgZ_h9Rtc" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:43:42.271Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="MjeRgUUUbq7vtY2KtlD9" version="14.4.2" type="github" pages="3">
   <diagram id="YA1W6aXcYbbrDD___CQI" name="Dev-Workflow">
     <mxGraphModel dx="726" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="N1kKD5sktU9nOWpNhj-q-57" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N1kKD5sktU9nOWpNhj-q-52" target="N1kKD5sktU9nOWpNhj-q-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N1kKD5sktU9nOWpNhj-q-52" value="New commits in target branch? /&lt;br&gt;Merge conflicts" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="N1kKD5sktU9nOWpNhj-q-52" value="New commits in target branch? /&lt;br&gt;Merge conflicts in&lt;br&gt;pull-request" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="N1kKD5sktU9nOWpNhj-q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N1kKD5sktU9nOWpNhj-q-55" target="N1kKD5sktU9nOWpNhj-q-52">
