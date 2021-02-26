@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T07:22:15.224Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hw3KwO3n6lNuYoM9ron4" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:23:25.661Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="NhhhKAPl1u27c6iqDCj9" version="14.4.2" type="github" pages="3">
   <diagram id="YA1W6aXcYbbrDD___CQI" name="Dev-Workflow">
     <mxGraphModel dx="726" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="N1kKD5sktU9nOWpNhj-q-1" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCs_ojkXlYOR5Ny38NSI-9" target="x902Lsg1Vqh7y2XP0Peg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KCs_ojkXlYOR5Ny38NSI-9" value="Developer /&lt;br&gt;Field /&lt;br&gt;Make a wish /&lt;br&gt;Whoever find bugs" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="120" width="30" height="60" as="geometry" />
+        <mxCell id="KCs_ojkXlYOR5Ny38NSI-9" value="Developer /&lt;br&gt;QA /&lt;br&gt;Field /&lt;br&gt;Make a wish /&lt;br&gt;Whoever find bugs" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="110" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KCs_ojkXlYOR5Ny38NSI-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oWwC90-C1DqSdzeMcED6-1" target="oWwC90-C1DqSdzeMcED6-4" edge="1">
           <mxGeometry relative="1" as="geometry">
